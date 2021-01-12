@@ -1,21 +1,22 @@
 # Aplikasi-Uas
-Nama: Yosan Permana Putra
-NIM: 19.11.2779
-Promos
-Aplikasi ini berfungsi untuk simulasi pembelian makanan/minuman dengan menggunakan promo/voucher.
+#Nama: Yosan Permana Putra
+#NIM: 19.11.2779
+#Promos
+#Aplikasi ini berfungsi untuk simulasi pembelian makanan/minuman dengan menggunakan promo/voucher.
 
-Scope and Functionalities
+#Scope and Functionalities
 User dapat melihat daftar makanan yang ditawarkan
 User dapat memasukkan atau menghapus makanan pilihan ke dalam keranjang
 User dapat melihat subtotal makanan yang terdapat pada keranjang
 User dapat melihat daftar voucher yang ditawarkan
 User dapat menggunakan salah satu voucher
 User dapat melihat harga total termasuk potongannya
-How Does it works?
+#How Does it works?
 Apa aja model yang digunakan pada project ini?
 saya membuat 4 model yaitu model item untuk makanan atau minuman, model keranjangBelanja untuk menaruh pembelian, model payment untuk mengurusi total harga beli, dan model Voucher untuk daftar vouchernya
 Apa fungsi MainWindowController.cs? controller ini digunakan untuk melakukan beberapa operasi. Seperti menambahkan item dan voucher, menghapus item dan voucher, lalu untuk mendapatkan data list dari item yang dibeli dan voucher yang digunakan.
 Alur programnya gimana sih? dimulai dari Penawaran.xaml.cs, disini dibuat object item dan akan ditambahkan pada sebuah list, yang nantinya akan ditampilkan pada sebuah list box
+        
         private void generateContentPenawaran()
         {
             Item coffeLate = new Item("Coffe Late", 30000);
